@@ -6,7 +6,7 @@ The goal of this project is to explore "helpful" questions on Stack Overflow usi
 2. Used NLTK pipeline to preprocess the text corpus of 140291 questions
 3. Ran topic modeling on the corpus using CountVectorizer and TF-IDF for LDA and NMF
 ## Files Included
-* stackoverflow_questions_data_cleaning notebook: data cleaning and preprocessing
-* stackoverflow_questions_eda notebook: further data processing and EDA to remove stopwords
-* stackoverflow_questions_topic_modeling: topic modeling and data visualization
-* Metis Project 4 Presentation pdf: final presentation for Metis program discussing the project in detail
+* [stackoverflow_questions_data_cleaning](https://github.com/wnobles/metis-project4-nlp/blob/main/stackoverflow_questions_data_cleaning.ipynb) notebook: data cleaning and preprocessing
+* [stackoverflow_questions_eda](https://github.com/wnobles/metis-project4-nlp/blob/main/stackoverflow_questions_eda.ipynb) notebook: further data processing and EDA to remove stopwords
+* [stackoverflow_questions_topic_modeling](https://github.com/wnobles/metis-project4-nlp/blob/main/stackoverflow_questions_topic_modeling.ipynb) notebook: topic modeling and data visualization
+* [Metis Project 4 Presentation](https://github.com/wnobles/metis-project4-nlp/blob/main/Metis%20Project%204%20Presentation.pdf) pdf: final presentation for Metis program discussing the project in detail
