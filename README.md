@@ -1,6 +1,6 @@
 # Topic Modeling Exploration of Stack Overflow Questions
 ## Goal
-The goal of this project is to explore "helpful" questions on Stack Overflow using natural language processing and unsupervised learning. Filtering the public dataset hosted on Google Cloud Platform's BigQuery for the top 10% of questions by score, I used NLP and topic modeling techniques to identify topics most commonly discussed on the Stack Overflow site that were associated with questions users found most helpful.
+The goal of this project is to explore "helpful" questions on Stack Overflow using natural language processing and unsupervised learning. Filtering the public dataset hosted on Google Cloud Platform's BigQuery for the top 10% of questions by score, I used NLP and topic modeling techniques to identify topics most commonly discussed on the Stack Overflow site that were associated with questions users found most helpful. Further explanation of the modeling process can be found in this Medium [article](https://willnobles.medium.com/what-makes-a-question-helpful-19e934c2d436).
 ## Methodology
 1. Filtered data related to questions on Stack Overflow with the top 10% of scores associated with them, in addition to looking at posts with the 100 most-frequently used tags associated with them
 2. Used NLTK pipeline to preprocess the text corpus of 140291 questions
